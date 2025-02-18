@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{0B9E5733-085A-4E80-B89B-06920CB2597B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveAPI.Domain", "Core\MoveAPI.Domain\MoveAPI.Domain.csproj", "{F245E7E0-2C4D-4DE1-AD86-794AD15DDB0C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F245E7E0-2C4D-4DE1-AD86-794AD15DDB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F245E7E0-2C4D-4DE1-AD86-794AD15DDB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F245E7E0-2C4D-4DE1-AD86-794AD15DDB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F245E7E0-2C4D-4DE1-AD86-794AD15DDB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F245E7E0-2C4D-4DE1-AD86-794AD15DDB0C} = {29F97C7D-E77A-4041-8D36-95CCFC2417C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4E4049D-2187-4CE5-8A03-D9130ACA4723}
