@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoveAPI.Domain.Entities
 {
-    class Review
+    public class Review
     {
         public int ReviewId { get; set; }
         public string ReviewMessage { get; set; }

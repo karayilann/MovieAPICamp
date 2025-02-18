@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace MoveAPI.Domain.Entities
 {
-    public class Category
+    public class Tag
     {
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
+        public int TagId { get; set; }
+        public string TagTitle { get; set; }
 
     }
 }
