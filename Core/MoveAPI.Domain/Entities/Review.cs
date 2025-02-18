@@ -8,5 +8,11 @@ namespace MoveAPI.Domain.Entities
 {
     class Review
     {
+        public int ReviewId { get; set; }
+        public string ReviewMessage { get; set; }
+        public decimal ReviewRating { get; set; }
+        public DateTime ReviewDate { get; set; }
+        public bool Status { get; set; }
+
     }
 }
