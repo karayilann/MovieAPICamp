@@ -15,6 +15,5 @@ namespace MoveAPI.Domain.Entities
         public string ImageURL { get; set; }
         public string? Overview { get; set; } // Nulleable
         public string? Biography { get; set; } // Nulleable
-                
     }
 }

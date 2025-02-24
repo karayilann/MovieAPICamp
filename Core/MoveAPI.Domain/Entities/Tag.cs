@@ -10,6 +10,5 @@ namespace MoveAPI.Domain.Entities
     {
         public int TagId { get; set; }
         public string TagTitle { get; set; }
-
     }
 }

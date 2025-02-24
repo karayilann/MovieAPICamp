@@ -13,6 +13,5 @@ namespace MoveAPI.Domain.Entities
         public decimal ReviewRating { get; set; }
         public DateTime ReviewDate { get; set; }
         public bool Status { get; set; }
-
     }
 }
