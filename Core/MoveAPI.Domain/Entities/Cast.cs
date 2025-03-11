@@ -13,7 +13,7 @@ namespace MoveAPI.Domain.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public string ImageURL { get; set; }
-        public string? Overview { get; set; } // Nulleable
-        public string? Biography { get; set; } // Nulleable
+        public string? Overview { get; set; } 
+        public string? Biography { get; set; }
     }
 }
