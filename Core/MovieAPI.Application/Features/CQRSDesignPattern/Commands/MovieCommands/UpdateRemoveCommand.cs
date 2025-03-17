@@ -8,7 +8,6 @@ namespace MovieAPI.Application.Features.CQRSDesignPattern.Commands.MovieCommands
 {
     public class UpdateRemoveCommand
     {
-
         public int MovieId { get; set; }
         public string MovieTitle { get; set; }
         public string CoverImageURL { get; set; }
@@ -18,6 +17,5 @@ namespace MovieAPI.Application.Features.CQRSDesignPattern.Commands.MovieCommands
         public DateTime ReleaseDate { get; set; }
         public string CreatedYear { get; set; }
         public bool Status { get; set; }
-
     }
 }
