@@ -11,5 +11,6 @@ namespace MovieAPI.Application.Features.CQRSDesignPattern.Results.CategoryResult
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
 
+
     }
 }
